@@ -2,7 +2,7 @@ picmail
 =============
 Picmail is a node application that will search a local folder on your computer and find a picture that took pace closest to this day of the year. Once a photo is found it will then email this picture to you and store this photo in a database as to not keep sending the same picture over and over.
 
-setup
+Setup
 -------------------
 This uses nodejs to run locally and will then schedule the next email 24 hours after it is started.  The database used in postgres and can be configured via the config.js file.  Copy the sample.config.js file to the same folder and enter your values.  You will need an external email service (gmail works fine).
 	{
@@ -17,7 +17,7 @@ Ensure node and npm are installed then:
 	node process.js
 
 
-future
+Future / Roadmap
 -------------------
 The application was designed to be expanded upon which is why the user model way more robust (complicated) than it needs to be at this time.  It uses a ORM (Sequelize) and will create a single user in the users table, obviously a bit overkill.  
 
